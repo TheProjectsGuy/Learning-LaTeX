@@ -1,6 +1,11 @@
+% Article
 \documentclass[]{article}
+% Input encoding is UTF-8
 \usepackage[utf8]{inputenc}
+% Package for hypertext
 \usepackage{hyperref}
+% Package for graphics
+\usepackage{graphicx}
 
 % Reference: https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes
 
@@ -18,13 +23,14 @@
 
 \date{September 18, 2021}
 
+% Main document beginning
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
     
-    A basic document highlighting key \LaTeX{} features and walking through setup using VSCode (because it's simply better). The OS used is \texttt{Ubuntu 20.04}.
+    A basic document highlighting key \LaTeX{} features and walking through setup using VSCode (because it's simply better). The tested OS is \texttt{Ubuntu 20.04}, and \texttt{Windows}.
 
 \end{abstract}
 
@@ -79,7 +85,13 @@ Instead of all this, some alternatives are presented here
 
 \section{Basic \LaTeX{}}
 
-% TODO: Work
+% This is a comment, it's not rendered
+
+In this section, basic \LaTeX{} syntax is explored. Here is some \textbf{bold}, \textit{italics} and \underline{underline} text. However, it's best to use \emph{emphasis} to highlight text (adapted to context). Make sure that the preamble is properly described before the \verb|\begin{document}| line (following which, the main document begins).
+
+\subsection{Some Graphics}
+
+To include external graphics, use the \texttt{graphicx} package.
 
 \end{document}
 

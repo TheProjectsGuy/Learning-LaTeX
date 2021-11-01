@@ -1,8 +1,12 @@
-# Ignore basic LaTeX generated files
+# LaTeX files
 *.aux
 *.fdb_latexmk
 *.fls
-*.log
-*.out
-*.synctex.gz
 *.toc
+*.lof
+*.lol
+*.log
+*.synctex.gz
+*.synctex
+*.synctex(busy)
+*.out

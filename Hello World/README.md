@@ -1,11 +1,22 @@
-# Hello World to LaTeX
+# Hello World for LaTeX
 
-Getting started with LaTeX on your own system.
+This folder contains the first steps in learning LaTeX. Check out the [main.tex](./main.tex) file.
 
-## Files
+## Table of contents
 
-The following files should be referred for this
+- [Hello World for LaTeX](#hello-world-for-latex)
+    - [Table of contents](#table-of-contents)
+    - [Contents](#contents)
+    - [References](#references)
 
-| File | Description |
-| :--- | :----- |
-| [hello_world.tex](./hello_world.tex) | The main LaTeX script. The corresponding PDF can be seen in [hello_world.pdf](./hello_world.pdf) |
+## Contents
+
+The following scripts are present here
+
+| Output File | Source scripts |
+| :--- | :---- |
+| [main.pdf](./main.pdf) | [main.tex](./main.tex) |
+
+## References
+
+- [Overleaf - Learn LaTeX in 30 minutes](https://www.overleaf.com/learn/latex/Learn_LaTeX_in_30_minutes)

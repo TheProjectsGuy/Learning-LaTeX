@@ -1,0 +1,19 @@
+\input{preamble.tex}
+
+\title{Modularity using \texttt{subfiles} package}
+\author{Avneesh Mishra}
+
+\begin{document}
+    \maketitle
+    \tableofcontents
+    % Include the file for abstract
+    \subfile{abstract.tex}
+    % Include section 1
+    \subfile{s1.tex}
+    % Include section 2
+    \subfile{s2.tex}
+    % Appendix
+    \appendix
+    \subfile{appendix.tex}
+
+\end{document}

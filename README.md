@@ -35,6 +35,7 @@ The contents of this repository are divided into folders listed below
 | S. No. | Folder | Description |
 | :--- | :--- | :--- |
 | 1 | [Hello World](Hello%20World/README.md) | First steps in LaTeX. Contains a simple TeX file. |
+| 2 | [Concepts](./Concepts/README.md) | Concepts in LaTeX. Contains folders for individual concepts. |
 
 ## References
 

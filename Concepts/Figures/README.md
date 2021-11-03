@@ -9,3 +9,9 @@ Inserting figures in a LaTeX document is explored here.
     - [Contents](#contents)
 
 ## Contents
+
+Various methods of accomplishing this is explored in this folder. They're described in the table below
+
+| S. No. | Method | Description |
+| :---- | :---- | :---- |
+| 1 | [Subfigures](./Subfigures/README.md) | Adding sub-figures to a document |

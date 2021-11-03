@@ -1,0 +1,28 @@
+% !TeX root = main.tex
+
+\section{Simple Figures}
+
+A simple figure is demonstrated below (anchored using \texttt{[h]}). More positioning parameters \href{https://www.overleaf.com/learn/latex/Inserting_Images#Positioning}{here}.
+
+% Insert a simple figure in a float
+\begin{figure}[h]
+    % Center it in the page
+    \centering
+    % Graphics
+    \includegraphics[width=0.6\textwidth]{img1.png}
+    % Caption
+    \caption[Autumn Leaves]{Autumn Leaves by \href{https://pixabay.com/vectors/leaves-autumn-pattern-background-5598709/}{strodestudios}}
+    % Small text under caption
+    \small
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris vel semper erat, ac malesuada erat. Nulla id venenatis dui. Donec semper eleifend velit vel eleifend. Quisque imperdiet condimentum nibh ac volutpat.
+\end{figure}
+
+Another figure is positioned to the \texttt{[b]}ottom of the page. Check it out in Figure \ref{fig:mcb-bottom}.
+
+\begin{figure}[b]
+    \centering
+    \includegraphics[width=0.4\textwidth]{img2.png}
+    \caption[Multi-colored background]{Multi-colored background by \href{https://pixabay.com/illustrations/colorful-rainbow-gradient-geometric-2174045/}{Manuchi}}
+    % Labels
+    \label{fig:mcb-bottom}
+\end{figure}

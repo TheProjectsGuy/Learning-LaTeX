@@ -42,3 +42,4 @@ The contents of this repository are divided into folders listed below
 - [CTAN: Comprehensive TeX Archive Network](https://www.ctan.org/)
 - [Learn on Overleaf](https://www.overleaf.com/learn)
 - Equations using [codecogs](https://www.codecogs.com/latex/eqneditor.php)
+- Lorem Ipsum from [here](https://www.lipsum.com/)

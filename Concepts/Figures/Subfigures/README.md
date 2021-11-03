@@ -26,8 +26,4 @@ The images are stored in [images](./images/) folder
 
 ## References
 
-- Overleaf
-    - [Inserting Images](https://www.overleaf.com/learn/latex/Inserting_Images)
-    - [Figures, Sub-Figures and Tables](https://www.overleaf.com/learn/latex/How_to_Write_a_Thesis_in_LaTeX_(Part_3)%3A_Figures%2C_Subfigures_and_Tables)
-
 Images are from [pixabay](https://pixabay.com/) (royalty free). Images credits are linked in captions.

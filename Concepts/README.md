@@ -15,11 +15,6 @@ The contents of this folder is divided into folders. Each folder explores a conc
 | S. No. | Concept | Description |
 | :--- | :--- | :--- |
 | 1 | [Modules](./Modules/README.md) | Modularizing LaTeX |
-
-The following are in the pipeline
-
-| S. No. | Concept | Description |
-| :--- | :--- | :--- |
 | 2 | [Text Styling](./Text%20Styling/README.md) | Hyperlinks, text styles, coloring, etc. All experiments with text and font |
 | 3 | [Lists](./Lists/README.md) | Ordered, Unordered, etc. lists for showing items |
 | 4 | [Equations](./Equations/README.md) | Equations in documents |

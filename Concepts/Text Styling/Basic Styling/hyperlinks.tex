@@ -1,0 +1,30 @@
+% !TeX root = main.tex
+\section{Hyperlinks}
+
+% Basic referencing
+\subsection{References}
+
+A simple equation is in Equation \ref{eq:simple-equation}
+
+\begin{equation}
+    1 = 1
+    \label{eq:simple-equation}
+\end{equation}
+
+% Web links
+\subsection{Web links}
+
+A link to Hello World can be found \href{https://en.wikipedia.org/wiki/%22Hello,_World!%22_program}{here}.
+\\ \noindent
+The CTAN page for hyperref can be found at \url{https://ctan.org/pkg/hyperref?lang=en}
+
+% File links
+\subsection{Files}
+
+Open the \href{run:./README.md}{README.md} file (this may open a dialog or may not work everywhere).
+\\ \noindent
+You can also link to a sentence, like the \hyperlink{text:last-sentence-1}{one} in the next page. 
+
+\pagebreak
+
+\hypertarget{text:last-sentence-1}{This is a target sentence}. This is where a link described earlier leads.

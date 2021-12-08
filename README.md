@@ -36,6 +36,7 @@ The contents of this repository are divided into folders listed below
 | :--- | :--- | :--- |
 | 1 | [Hello World](Hello%20World/README.md) | First steps in LaTeX. Contains a simple TeX file. |
 | 2 | [Concepts](./Concepts/README.md) | Concepts in LaTeX. Contains folders for individual concepts. |
+| 3 | [Templates](./Templates/README.md) | Simple reusable templates to prevent reinventing the wheel every time. |
 
 ## References
 

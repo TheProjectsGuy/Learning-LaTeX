@@ -7,5 +7,12 @@ It is sometimes needed to insert coded snippets in a document. This folder shows
 - [Code Listings in LaTeX](#code-listings-in-latex)
     - [Table of contents](#table-of-contents)
     - [Contents](#contents)
+    - [References](#references)
 
 ## Contents
+
+## References
+
+Some links that can help
+
+- https://www.overleaf.com/learn/latex/Code_listing

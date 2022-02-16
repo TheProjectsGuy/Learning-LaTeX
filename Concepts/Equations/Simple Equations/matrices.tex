@@ -1,0 +1,37 @@
+% !TeX root = main.tex
+\section{Matrices}
+
+\subsection{Huge matrices}
+
+A huge matrix is shown below
+
+\begin{equation}
+    \mathbf{J} = \begin{bmatrix}
+        (\mathbf{J}_{11_M})_{1,12} & 0_{1,12} & \cdots & 0_{1,12} & \parallel & (\mathbf{J}_{11_S})_{1,3} & 0_{1,3} & \cdots & 0_{1,3} \\
+        (\mathbf{G}_{11_M})_{1,12} & 0_{1,12} & \cdots & 0_{1,12} & \parallel & (\mathbf{G}_{11_S})_{1,3} & 0_{1,3} & \cdots & 0_{1,3} \\
+        (\mathbf{J}_{12_M})_{1,12} & 0_{1,12} & \cdots & 0_{1,12} & \parallel & 0_{1,3} & (\mathbf{J}_{12_S})_{1,3} & \cdots & 0_{1,3} \\
+        (\mathbf{G}_{12_M})_{1,12} & 0_{1,12} & \cdots & 0_{1,12} & \parallel & 0_{1,3} & (\mathbf{G}_{12_S})_{1,3} & \cdots & 0_{1,3} \\
+        \vdots & \vdots & \vdots & \vdots & \parallel & \vdots & \vdots & \vdots & \vdots \\
+        (\mathbf{J}_{1n_M})_{1,12} & 0_{1,12} & \cdots & 0_{1,12} & \parallel & 0_{1,3} & 0_{1,3} & \cdots & (\mathbf{J}_{1n_S})_{1,3} \\
+        (\mathbf{G}_{1n_M})_{1,12} & 0_{1,12} & \cdots & 0_{1,12} & \parallel & 0_{1,3} & 0_{1,3} & \cdots & (\mathbf{G}_{1n_S})_{1,3} \\
+        
+        0_{1,12} & (\mathbf{J}_{21_M})_{1,12} & \cdots & 0_{1,12} & \parallel & (\mathbf{J}_{21_S})_{1,3} & 0_{1,3} & \cdots & 0_{1,3} \\
+        0_{1,12} & (\mathbf{G}_{21_M})_{1,12} & \cdots & 0_{1,12} & \parallel & (\mathbf{G}_{21_S})_{1,3} & 0_{1,3} & \cdots & 0_{1,3} \\
+        0_{1,12} & (\mathbf{J}_{22_M})_{1,12} & \cdots & 0_{1,12} & \parallel & 0_{1,3} & (\mathbf{J}_{22_S})_{1,3} & \cdots & 0_{1,3} \\
+        0_{1,12} & (\mathbf{G}_{22_M})_{1,12} & \cdots & 0_{1,12} & \parallel & 0_{1,3} & (\mathbf{G}_{22_S})_{1,3} & \cdots & 0_{1,3} \\
+        \vdots & \vdots & \vdots & \vdots & \parallel & \vdots & \vdots & \vdots & \vdots \\
+        0_{1,12} & (\mathbf{J}_{2n_M})_{1,12} & \cdots & 0_{1,12} & \parallel & 0_{1,3} & 0_{1,3} & \cdots & (\mathbf{J}_{2n_S})_{1,3} \\
+        0_{1,12} & (\mathbf{G}_{2n_M})_{1,12} & \cdots & 0_{1,12} & \parallel & 0_{1,3} & 0_{1,3} & \cdots & (\mathbf{G}_{2n_S})_{1,3} \\
+
+        \vdots & \vdots & \vdots & \vdots & \parallel & \vdots & \vdots & \vdots & \vdots \\
+        \vdots & \vdots & \vdots & \vdots & \parallel & \vdots & \vdots & \vdots & \vdots \\
+        
+        0_{1,12} & 0_{1,12} & \cdots & (\mathbf{J}_{m1_M})_{1,12} & \parallel & (\mathbf{J}_{m1_S})_{1,3} & 0_{1,3} & \cdots & 0_{1,3} \\
+        0_{1,12} & 0_{1,12} & \cdots & (\mathbf{G}_{m1_M})_{1,12} & \parallel & (\mathbf{G}_{m1_S})_{1,3} & 0_{1,3} & \cdots & 0_{1,3} \\
+        0_{1,12} & 0_{1,12} & \cdots & (\mathbf{J}_{m2_M})_{1,12} & \parallel & 0_{1,3} & (\mathbf{J}_{m2_S})_{1,3} & \cdots & 0_{1,3} \\
+        0_{1,12} & 0_{1,12} & \cdots & (\mathbf{G}_{m2_M})_{1,12} & \parallel & 0_{1,3} & (\mathbf{G}_{m2_S})_{1,3} & \cdots & 0_{1,3} \\
+        \vdots & \vdots & \vdots & \vdots & \parallel & \vdots & \vdots & \vdots & \vdots \\
+        0_{1,12} & 0_{1,12} & \cdots & (\mathbf{J}_{mn_M})_{1,12} & \parallel & 0_{1,3} & 0_{1,3} & \cdots & (\mathbf{J}_{mn_S})_{1,3} \\
+        0_{1,12} & 0_{1,12} & \cdots & (\mathbf{G}_{mn_M})_{1,12} & \parallel & 0_{1,3} & 0_{1,3} & \cdots & (\mathbf{G}_{mn_S})_{1,3}      
+        \end{bmatrix}
+\end{equation}

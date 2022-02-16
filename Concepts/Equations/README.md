@@ -14,4 +14,4 @@ Various methods of accomplishing this is explored in this folder. They're descri
 
 | S. No. | Method | Description |
 | :---- | :---- | :---- |
-| [Aligning](./Aligning/README.md) | Aligning equations |
+| 1 | [Simple Equations](./Simple%20Equations/README.md) | Basic concepts of equations |

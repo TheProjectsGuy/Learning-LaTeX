@@ -1,0 +1,34 @@
+% !TeX root = main.tex
+\section{Aligned Equations}
+
+\subsection{Long equations}
+
+Long equations that are aligned
+
+\begin{align}
+    \begin{split}
+        \tau_1 =& \ddot{q}_1 \left(I_{zz_1} + I_{zz_2} + I_{zz_3} + 2 c_{2} l_{1} l_{2} m_{3} + 2 c_{2} l_{1} m_{2} r_{2} + 2 c_{3} l_{2} m_{3} r_{3} + 2 c_{23} l_{1} m_{3} r_{3} + l_{1}^{2} m_{2} + l_{1}^{2} m_{3} \right.\\
+            & \left. + l_{2}^{2} m_{3} + m_{1} r_{1}^{2} + m_{2} r_{2}^{2} + m_{3} r_{3}^{2}\right) + \ddot{q}_2 \left(I_{zz_2} + I_{zz_3} + c_{2} l_{1} l_{2} m_{3} + c_{2} l_{1} m_{2} r_{2} + 2 c_{3} l_{2} m_{3} r_{3} \right. \\
+            & \left. + c_{23} l_{1} m_{3} r_{3} + l_{2}^{2} m_{3} + m_{2} r_{2}^{2} + m_{3} r_{3}^{2}\right) + \ddot{q}_3 \left(I_{zz_3} + c_{3} l_{2} m_{3} r_{3} + c_{23} l_{1} m_{3} r_{3} + m_{3} r_{3}^{2}\right) \\
+            & - 2 \dot{q}_1 \left(\dot{q}_2 l_{1} l_{2} m_{3} s_{2} + \dot{q}_2 l_{1} m_{2} r_{2} s_{2} + \dot{q}_3 l_{2} m_{3} r_{3} s_{3} + l_{1} m_{3} r_{3} s_{23} \left(\dot{q}_2 + \dot{q}_3\right)\right) - \dot{q}_2 \left(\dot{q}_2 l_{1} l_{2} m_{3} s_{2} \right. \\
+            & \left. + \dot{q}_2 l_{1} m_{2} r_{2} s_{2} + 2 \dot{q}_3 l_{2} m_{3} r_{3} s_{3} + l_{1} m_{3} r_{3} s_{23} \left(\dot{q}_2 + \dot{q}_3\right)\right) - \dot{q}_3 m_{3} r_{3} \left(\dot{q}_3 l_{2} s_{3} + l_{1} s_{23} \left(\dot{q}_2 + \dot{q}_3\right)\right) \\
+            & - g \left(c_{1} l_{1} m_{2} + c_{1} l_{1} m_{3} + c_{1} m_{1} r_{1} + c_{123} m_{3} r_{3} + c_{12} l_{2} m_{3} + c_{12} m_{2} r_{2}\right)
+    \end{split}
+    \label{eq:3r-dyn-tau-vect-elem1}
+    \\
+    \begin{split}
+        \tau_2 =& 1.0 I_{zz_2} \ddot{q}_1 + 1.0 I_{zz_2} \ddot{q}_2 + 1.0 I_{zz_3} \ddot{q}_1 + 1.0 I_{zz_3} \ddot{q}_2 + 1.0 I_{zz_3} \ddot{q}_3 + 1.0 \ddot{q}_1 c_{2} l_{1} l_{2} m_{3} + 1.0 \ddot{q}_1 c_{2} l_{1} m_{2} r_{2} \\
+            & + 2.0 \ddot{q}_1 c_{3} l_{2} m_{3} r_{3} + 1.0 \ddot{q}_1 c_{23} l_{1} m_{3} r_{3} + 1.0 \ddot{q}_1 l_{2}^{2} m_{3} + 1.0 \ddot{q}_1 m_{2} r_{2}^{2} + 1.0 \ddot{q}_1 m_{3} r_{3}^{2} + 2.0 \ddot{q}_2 c_{3} l_{2} m_{3} r_{3} \\
+            & + 1.0 \ddot{q}_2 l_{2}^{2} m_{3} + 1.0 \ddot{q}_2 m_{2} r_{2}^{2} + 1.0 \ddot{q}_2 m_{3} r_{3}^{2} + 1.0 \ddot{q}_3 c_{3} l_{2} m_{3} r_{3} + 1.0 \ddot{q}_3 m_{3} r_{3}^{2} + 1.0 \dot{q}_1^{2} l_{1} l_{2} m_{3} s_{2} \\
+            & + 1.0 \dot{q}_1^{2} l_{1} m_{2} r_{2} s_{2} + 1.0 \dot{q}_1^{2} l_{1} m_{3} r_{3} s_{23} - 2.0 \dot{q}_1 \dot{q}_3 l_{2} m_{3} r_{3} s_{3} - 2.0 \dot{q}_2 \dot{q}_3 l_{2} m_{3} r_{3} s_{3} - 1.0 \dot{q}_3^{2} l_{2} m_{3} r_{3} s_{3} \\
+            & - 1.0 c_{123} g m_{3} r_{3} - 1.0 c_{12} g l_{2} m_{3} - 1.0 c_{12} g m_{2} r_{2}
+    \end{split}
+    \label{eq:3r-dyn-tau-vect-elem2}
+    \\
+    \begin{split}
+        \tau_3 =& 1.0 I_{zz_3} \ddot{q}_1 + 1.0 I_{zz_3} \ddot{q}_2 + 1.0 I_{zz_3} \ddot{q}_3 + 1.0 \ddot{q}_1 c_{3} l_{2} m_{3} r_{3} + 1.0 \ddot{q}_1 c_{23} l_{1} m_{3} r_{3} + 1.0 \ddot{q}_1 m_{3} r_{3}^{2} \\
+            & + 1.0 \ddot{q}_2 c_{3} l_{2} m_{3} r_{3} + 1.0 \ddot{q}_2 m_{3} r_{3}^{2} + 1.0 \ddot{q}_3 m_{3} r_{3}^{2} + 1.0 \dot{q}_1^{2} l_{1} m_{3} r_{3} s_{23} + 1.0 \dot{q}_1^{2} l_{2} m_{3} r_{3} s_{3} \\
+            & + 2.0 \dot{q}_1 \dot{q}_2 l_{2} m_{3} r_{3} s_{3} + 1.0 \dot{q}_2^{2} l_{2} m_{3} r_{3} s_{3} - 1.0 c_{123} g m_{3} r_{3}
+    \end{split}
+    \label{eq:3r-dyn-tau-vect-elem3}
+\end{align}

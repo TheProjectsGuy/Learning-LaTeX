@@ -16,4 +16,5 @@ Each folder in this repository is a complete LaTeX project. The result is nothin
 
 | Folder | Description |
 | :--- | :---- |
-| [Basic Modular Article](./Basic%20Modular%20Article/INFO.md) | A basic modular article useful for assignments |
+| [Basic Modular Article](./Basic%20Modular%20Article/INFO.md) | A basic modular article |
+| [IIITH Assignments](./IIITH%20Assignments/) | For IIIT Hyderabad assignments |

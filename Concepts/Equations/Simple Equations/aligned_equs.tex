@@ -1,6 +1,15 @@
 % !TeX root = main.tex
 \section{Aligned Equations}
 
+\subsection{Short equations}
+
+\begin{align}
+    \rho(h) \boldsymbol{v} &= \sum_{g}{v_g \, \mathbf{e}_{hg}} = v_1 \, \mathbf{e}_{h1} + v_2 \, \mathbf{e}_{h2} + \cdots + v_n \, \mathbf{e}_{hn}
+    \notag \\
+    &= \sum_{\tilde{g}}{v_{h^{-1}\tilde{g}} \, \mathbf{e}_{\tilde{g}}} = v_{h^{-1} 1} \mathbf{e}_1 + v_{h^{-1} 2} \mathbf{e}_2 + \cdots v_{h^{-1} n} \mathbf{e}_n
+    \label{eq:reg-repr-vector}
+\end{align}
+
 \subsection{Long equations}
 
 Long equations that are aligned

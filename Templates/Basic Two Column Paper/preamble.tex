@@ -1,0 +1,39 @@
+\documentclass[twocolumn]{IEEEtran}
+% Multiple authors and affiliations
+\usepackage{authblk}
+% Multiple files
+\usepackage{subfiles}
+% Figures and captions  (graphics)
+\usepackage{graphicx}
+\usepackage{placeins}   % FloatBarrier in abstract
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+% Links
+\usepackage{hyperref}
+% Bibliography
+\usepackage[backend=biber,sorting=ynt]{biblatex}
+% Simple editing
+\usepackage{xcolor}     % Colors
+% Multi-author work
+\usepackage[editing]{coop-writing}
+
+% --- Do not use these packages ---
+% Generate Lorem Ipsum
+\usepackage{lipsum}
+% ---------------------------------
+
+
+% --------- Preferences ----------
+% Folder for graphics
+\graphicspath{{./images/}}
+% Bibliography
+\addbibresource{bibliography.bib}
+% --------------------------------
+
+
+% ---- Multi-Author comments -----
+%   Named colors from xcolor
+\cwnamedef{am}{teal}{A.M.}
+% --------------------------------
+

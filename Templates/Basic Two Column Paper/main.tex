@@ -1,0 +1,57 @@
+\input{preamble.tex}
+
+\title{Basic Two Column Paper - \LaTeX}
+
+% ---------- Authors ----------
+% Author names (* means equal contribution)
+\author[1*]{Avneesh Mishra}
+\author[1*]{Kevin Anthony}
+\author[1]{Glenda Hooper}
+\author[2*]{Crystal Haas}
+\author[2]{Cyrus Schaefer}
+\author[1]{Neville Poole}
+% Author affiliations
+\affil[1]{Robotics Research Center, IIIT Hyderabad}
+\affil[2]{Nonexistent VRLabs, Bangalore}
+% Author email addresses
+\affil[1]{\small \{
+    avneesh.mishra, 
+    kevin.notreal, 
+    glenda.notreal,
+    neville.notreal
+\}@research.iiit.ac.in}
+\affil[2]{\small \{
+    notreal.haas,
+    notreal.schaefer
+\}@notreal.vrlabs.in}
+% --------------------------------
+
+% ------ Custom commands ---------
+
+\begin{document}
+    \maketitle
+    % Abstract
+    \subfile{abstract.tex}
+    % ---- Basic structure of the paper (through subfiles) ----
+    \subfile{introduction.tex}
+    \subfile{related_work.tex}
+
+    % A todo comment
+    \todo[inline]{
+        Some things that can be added further in this document
+        \begin{enumerate}
+            \item Equations (single and multi-column)
+        \end{enumerate}
+    }
+
+    \subfile{main_theory.tex}
+    \subfile{experiments.tex}
+    \subfile{conclusion.tex}
+    % ---------------------------------------------------------
+    % -------------------- Bibliography --------------------
+    % \newpage  % Bibliography in a new column
+    \clearpage  % Bibliography in a new page (don't do \pagebreak)
+    \printbibliography
+    % ------------------------------------------------------
+
+\end{document}

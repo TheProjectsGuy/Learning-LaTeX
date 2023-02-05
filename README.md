@@ -44,3 +44,5 @@ The contents of this repository are divided into folders listed below
 - [Learn on Overleaf](https://www.overleaf.com/learn)
 - Equations using [codecogs](https://www.codecogs.com/latex/eqneditor.php)
 - Lorem Ipsum from [here](https://www.lipsum.com/)
+- Some useful packages
+    - [TikZ](https://texample.net/tikz/): Graphics in LaTeX. Also see [sane_tikz](https://github.com/negrinho/sane_tikz) for a simplified version.

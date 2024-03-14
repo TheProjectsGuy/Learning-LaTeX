@@ -43,4 +43,9 @@ The contents of this repository are divided into folders listed below
 - [CTAN: Comprehensive TeX Archive Network](https://www.ctan.org/)
 - [Learn on Overleaf](https://www.overleaf.com/learn)
 - Equations using [codecogs](https://www.codecogs.com/latex/eqneditor.php)
+- A [comprehensive](https://ctan.org/pkg/comprehensive) list of LaTeX symbols
 - Lorem Ipsum from [here](https://www.lipsum.com/)
+- Packages and concepts to see
+    - [Algorithms](https://www.overleaf.com/learn/latex/Algorithms)
+    - Kiviat plots (spider plots): [tkz-kiviat](https://www.ctan.org/pkg/tkz-kiviat) and [example](https://tex.stackexchange.com/a/10503/253896)
+    - Sankey diagrams (inflow and outflow with contributions): [sankey](https://www.ctan.org/pkg/sankey)

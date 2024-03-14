@@ -47,5 +47,6 @@ The contents of this repository are divided into folders listed below
 - Lorem Ipsum from [here](https://www.lipsum.com/)
 - Packages and concepts to see
     - [Algorithms](https://www.overleaf.com/learn/latex/Algorithms)
+    - [TikZ](https://texample.net/tikz/): Graphics in LaTeX. Also see [sane_tikz](https://github.com/negrinho/sane_tikz) for a simplified version.
     - Kiviat plots (spider plots): [tkz-kiviat](https://www.ctan.org/pkg/tkz-kiviat) and [example](https://tex.stackexchange.com/a/10503/253896)
     - Sankey diagrams (inflow and outflow with contributions): [sankey](https://www.ctan.org/pkg/sankey)
